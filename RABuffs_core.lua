@@ -338,7 +338,8 @@ function RAB_IsEligible(u,cmd)
 
   if ((RAB_Buffs[cmd].ignoreMTs == nil or not RAB_CTRA_IsMT(UnitName(u))) and
       	(RAB_Buffs[cmd].type ~= "self" 
-        or RAB_Buffs[cmd].castClass == "Item" 
+        or RAB_Buffs[cmd].castClass == "Item"
+        or RAB_Buffs[cmd].castClass == "Item Pt2"
         or RAB_Buffs[cmd].castClass == "Item Tooltip"
         or RAB_UnitClass(u) == RAB_Buffs[cmd].castClass) and
       (RAB_Buffs[cmd].ignoreClass == nil or string.find(RAB_Buffs[cmd].ignoreClass, RAB_ClassShort[RAB_UnitClass(u)]) == nil)) then
