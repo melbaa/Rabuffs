@@ -1270,6 +1270,8 @@ RAB_Buffs = 	{
             selfjujupower={name='Juju Power', textures={'INV_Misc_MonsterScales_11', 'INV_Potion_61'}, type='selfbuffonly', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=12451, useOn='player'},
             selfjujumight={name='Juju Might', textures={'INV_Misc_MonsterScales_07', 'INV_Potion_92'}, type='selfbuffonly', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=12460, useOn='player'},
             selfjujuguile={name="Juju Guile", textures={"INV_Misc_MonsterScales_13"}, type="selfbuffonly", queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=12458, useOn='player'},
+            selfjujuchill={name="Juju Chill", textures={"INV_Misc_MonsterScales_09"}, type="selfbuffonly", queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=12457, useOn='player'},
+            selfjujuember={name="Juju Ember", textures={"INV_Misc_MonsterScales_15"}, type="selfbuffonly", queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=12455, useOn='player'},
 
             -- wep enchants
             selfbrillmanaoil={name='Brilliant Mana Oil', textures={}, type='selfbuffonly', castClass='Self Wep Enchant', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=20748, useOn='weapon'},
