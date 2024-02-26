@@ -1251,6 +1251,8 @@ RAB_Buffs = 	{
             selfmushroomstam={name='Magic Mushroom (stam)', tooltipname='Increased Stamina', textures={'INV_Boots_Plate_03', 'Spell_Misc_Food'}, type='selfbuffonly', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=51717},
             selfmushroomstr={name='Magic Mushroom (str)', tooltipname='Well Fed', textures={'Spell_Misc_Food'}, type='selfbuffonly', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=51720},
             selfdesertdumpling={name='Smoked Desert Dumpling', tooltipname='Well Fed', textures={'Spell_Misc_Food'}, type='selfbuffonly', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=20452},
+            selfblessedsunfruit={name='Blessed Sunfruit', tooltipname='Blessed Sunfruit', textures={'Spell_Misc_Food'}, type='selfbuffonly', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=13810},
+
 
 
             selfrumseyrum={name="Rumsey Rum Black Label", textures={"INV_Drink_04"},type='selfbuffonly', queryFunc=RAB_ConsumeQueryHandler, buffFunc=RAB_UseItem, itemId=21151},
