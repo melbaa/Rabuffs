@@ -1202,6 +1202,7 @@ RAB_Buffs = 	{
             spelldmg={name="Flask of Supreme Power",textures={"INV_Potion_41"},castClass="Item Pt2",type="self"},
             wisdom={name="Flask of Distilled Wisdom",textures={"INV_Potion_97"},castClass="Item Pt2",type="self"},
 			titans={name="Flask of the Titans",textures={"INV_Potion_62"},castClass="Item Pt2",type="self"},
+            anyflask={name="A Flask",textures={"INV_Potion_62", "INV_Potion_97", "INV_Potion_41"},castClass="Item Pt2",type="self"},
 
 			spiritofzanza={name="Spirit of Zanza",textures={"INV_Potion_30"},castClass="Item Pt2",type="self"},
 			sheenofzanza={name="Sheen of Zanza",textures={"INV_Potion_29"},castClass="Item Pt2",type="self"},
